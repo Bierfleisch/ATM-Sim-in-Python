@@ -35,7 +35,7 @@ def save_account(account):
 
 
 if __name__ == '__main__':
-    nemanja_account = load_account('Person1')
-    nemanja_account['balance'] = 1000000000
-    nemanja_account['balance'] -= 100
-    save_account(nemanja_account)
+    person1_account = load_account('Person1')
+    person1_account['balance'] = 1000000000
+    person1_account['balance'] -= 100
+    save_account(person1_account)
